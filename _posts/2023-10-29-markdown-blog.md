@@ -3,5 +3,5 @@ layout: post
 title: An exhibit of Markdown
 subtitle: Each post also has a subtitle
 categories: markdown
-tags: [example, markdown]
+tags: [test]
 ---
