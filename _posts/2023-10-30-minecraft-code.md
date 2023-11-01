@@ -2,6 +2,18 @@
 layout: post
 title: 我的世界指令
 subtitle: 收集了kk键盘的我的世界指令
+banner:
+  video: https://www.bilibili.com/video/BV1ei4y1Z7KU/?share_source=copy_web&vd_source=733ae755676d76dda1dc480a236f73d7
+  loop: true
+  volume: 0.25
+  start_at: 8.5
+  image: https://github.com/Github-Huangshaoqi/minecraft-code/blob/main/block.jpg
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: gold"
 categories: minecraft
 tags: [minecraft]
 ---
