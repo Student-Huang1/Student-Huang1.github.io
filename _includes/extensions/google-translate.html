@@ -1,8 +1,23 @@
-<div id="translate_element"></div>
+<div id="translate_element">
+  <div id="google_translate_element" style="display: none;"></div>
+  <span class="ct-language">
+    <ul class="list-unstyled ct-language-dropdown">
+      <li>
+        <a href="#" class="lang-select" data-lang="zh-CN">
+          中文
+        </a>
+      </li>
+      <li>
+        <a href="#" class="lang-select" data-lang="en">
+          English
+        </a>
+      </li>
+    </ul>
+  </span>
+</div>
 
 <script type="text/javascript">
 function loadTranslationService() {
-    // 获取用户所在的国家或地区，这里使用一个示例值 'CN' 代表中国，'US' 代表美国
     var userCountry = 'CN'; // 你可以根据实际情况获取用户的地理位置信息
 
     var translateElement = document.getElementById('translate_element');
@@ -106,6 +121,7 @@ function googleTranslateElementInit() {
 // 加载翻译服务
 loadTranslationService();
 </script>
+
 
 
 
