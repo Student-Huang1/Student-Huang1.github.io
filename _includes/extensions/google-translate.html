@@ -1,5 +1,5 @@
 <div id="translate_element">
-  <div id="google_translate_element" style="display: none;"></div>
+  <div id="translation_widget" style="display: none;"></div>
   <span class="ct-language">
     <ul class="list-unstyled ct-language-dropdown">
       <li>
@@ -21,17 +21,18 @@ function loadTranslationService() {
     var userCountry = 'CN'; // 你可以根据实际情况获取用户的地理位置信息
 
     var translateElement = document.getElementById('translate_element');
+    var translationWidget = document.getElementById('translation_widget');
 
     if (userCountry === 'CN') {
         // 用户在中国，使用百度翻译
-        translateElement.innerHTML = '<div id="baidu_translate_element"></div>';
+        translationWidget.innerHTML = '<div id="baidu_translate_element"></div>';
         var script = document.createElement('script');
         script.type = 'text/javascript';
         script.src = 'https://fanyi.baidu.com/static/translation/widget/translationloader.js';
         document.head.appendChild(script);
     } else {
         // 用户在其他国家，使用谷歌翻译
-        translateElement.innerHTML = '<div id="google_translate_element"></div>';
+        translationWidget.innerHTML = '<div id="google_translate_element"></div>';
         var script = document.createElement('script');
         script.type = 'text/javascript';
         script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
@@ -121,10 +122,6 @@ function googleTranslateElementInit() {
 // 加载翻译服务
 loadTranslationService();
 </script>
-
-
-
-
 
 <!--{% if include.translate_langs %}
   {% assign translate_langs = include.translate_langs %}
