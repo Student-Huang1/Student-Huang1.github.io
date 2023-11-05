@@ -2,110 +2,110 @@
 
 <script type="text/javascript">
 function loadTranslationService() {
-  // 获取用户所在的国家或地区，这里使用一个示例值 'CN' 代表中国，'US' 代表美国
-  var userCountry = 'CN'; // 你可以根据实际情况获取用户的地理位置信息
+    var userCountry = 'CN'; // 你可以根据实际情况获取用户的地理位置信息
 
-  var translateElement = document.getElementById('translate_element');
-  
-  if (userCountry === 'CN') {
-    // 用户在中国，使用百度翻译
-    translateElement.innerHTML = '<div id="baidu_translate_element"></div>';
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = 'https://fanyi.baidu.com/static/translation/widget/translationloader.js';
-    document.head.appendChild(script);
-  } else {
-    // 用户在其他国家，使用谷歌翻译
-    translateElement.innerHTML = '<div id="google_translate_element"></div>';
-    var script = document.createElement('script');
-    script.type = 'text/javascript';
-    script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
-    document.head.appendChild(script);
-  }
+    var translateElement = document.getElementById('translate_element');
+
+    if (userCountry === 'CN') {
+        // 用户在中国，使用百度翻译
+        translateElement.innerHTML = '<div id="baidu_translate_element"></div>';
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://fanyi.baidu.com/static/translation/widget/translationloader.js';
+        document.head.appendChild(script);
+    } else {
+        // 用户在其他国家，使用谷歌翻译
+        translateElement.innerHTML = '<div id="google_translate_element"></div>';
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+        document.head.appendChild(script);
+    }
 }
 
 function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'en',
-    autoDisplay: false,
-    layout: google.translate.TranslateElement.InlineLayout.VERTICAL
-  }, 'google_translate_element');
+    new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        autoDisplay: false,
+        layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+    }, 'google_translate_element');
 
-  // Links to cross-origin destinations are unsafe
-  var gll = document.getElementsByClassName('goog-logo-link')[0];
-  if (gll) {
-    gll.setAttribute('rel', 'noopener');
-  }
-
-  function restoreLang() {
-    var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
-    if (!iframe) return;
-
-    var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
-    var restore_el = innerDoc.getElementsByTagName("button");
-
-    for (var i = 0; i < restore_el.length; i++) {
-      if (restore_el[i].id.indexOf("restore") >= 0) {
-        restore_el[i].click();
-        var close_el = innerDoc.getElementsByClassName("goog-close-link");
-        close_el[0].click();
-        return;
-      }
-    }
-  }
-
-  function triggerHtmlEvent(element, eventName) {
-    var event;
-    if (document.createEvent) {
-      event = document.createEvent('HTMLEvents');
-      event.initEvent(eventName, true, true);
-      element.dispatchEvent(event);
-    } else {
-      event = document.createEventObject();
-      event.eventType = eventName;
-      element.fireEvent('on' + event.eventType, event);
-    }
-  }
-
-  var googleCombo = document.querySelector("select.goog-te-combo");
-  var langSelect = document.querySelector('.ct-language');
-  langSelect.addEventListener('click', function(event) {
-    if (!event.target) {
-      return;
+    // Links to cross-origin destinations are unsafe
+    var gll = document.getElementsByClassName('goog-logo-link')[0];
+    if (gll) {
+        gll.setAttribute('rel', 'noopener');
     }
 
-    var selected = document.querySelector('.ct-language .ct-language-selected');
-    if (selected) {
-      selected.classList.remove('ct-language-selected');
+    function restoreLang() {
+        var iframe = document.getElementsByClassName('goog-te-banner-frame')[0];
+        if (!iframe) return;
+
+        var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+        var restore_el = innerDoc.getElementsByTagName("button");
+
+        for (var i = 0; i < restore_el.length; i++) {
+            if (restore_el[i].id.indexOf("restore") >= 0) {
+                restore_el[i].click();
+                var close_el = innerDoc.getElementsByClassName("goog-close-link");
+                close_el[0].click();
+                return;
+            }
+        }
     }
 
-    var target = event.target;
-    while (target && target !== langSelect ) {
-      if (target.matches('.lang-select')) {
-        break;
-      }
-      target = target.parentElement;
+    function triggerHtmlEvent(element, eventName) {
+        var event;
+        if (document.createEvent) {
+            event = document.createEvent('HTMLEvents');
+            event.initEvent(eventName, true, true);
+            element.dispatchEvent(event);
+        } else {
+            event = document.createEventObject();
+            event.eventType = eventName;
+            element.fireEvent('on' + event.eventType, event);
+        }
     }
 
-    if (target && target.matches('.lang-select')) {
-      var lang = target.getAttribute('data-lang');
-      if (googleCombo.value == lang) {
-        restoreLang();
-      } else {
-        target.parentElement.classList.add('ct-language-selected');
-        googleCombo.value = lang;
-        triggerHtmlEvent(googleCombo, 'change');
-      }
-    }
+    var googleCombo = document.querySelector("select.goog-te-combo");
+    var langSelect = document.querySelector('.ct-language');
+    langSelect.addEventListener('click', function(event) {
+        if (!event.target) {
+            return;
+        }
 
-    event.preventDefault();
-  });
+        var selected = document.querySelector('.ct-language .ct-language-selected');
+        if (selected) {
+            selected.classList.remove('ct-language-selected');
+        }
+
+        var target = event.target;
+        while (target && target !== langSelect ) {
+            if (target.matches('.lang-select')) {
+                break;
+            }
+            target = target.parentElement;
+        }
+
+        if (target && target.matches('.lang-select')) {
+            var lang = target.getAttribute('data-lang');
+            if (googleCombo.value == lang) {
+                restoreLang();
+            } else {
+                target.parentElement.classList.add('ct-language-selected');
+                googleCombo.value = lang;
+                triggerHtmlEvent(googleCombo, 'change');
+            }
+        }
+
+        event.preventDefault();
+    });
 
 }
 
 // 加载翻译服务
 loadTranslationService();
 </script>
+
 
 
 <!--{% if include.translate_langs %}
