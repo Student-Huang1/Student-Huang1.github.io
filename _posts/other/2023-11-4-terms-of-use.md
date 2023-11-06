@@ -4,7 +4,6 @@ title: 使用条款
 subtitle: 黄同学的博客使用条款
 categories: 使用条款
 tags: [使用条款]
-top: 2
 ---
 
 ## 前言
