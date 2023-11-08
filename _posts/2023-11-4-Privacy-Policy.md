@@ -3,6 +3,17 @@ layout: post
 title: 隐私政策
 subtitle: 黄同学的博客隐私政策
 categories: 隐私政策
+banner:
+  loop: true
+  volume: 0.8
+  start_at: 8.5
+  image: assets/images/yinsizhengce.jpg
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: white"
 tags: [隐私政策]
 top: 3
 ---
