@@ -12,7 +12,7 @@ banner:
   height: "100vh"
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
-  subheading_style: "color: gold"
+  subheading_style: "color: white"
 categories: minecraft
 tags: [minecraft]
 ---
