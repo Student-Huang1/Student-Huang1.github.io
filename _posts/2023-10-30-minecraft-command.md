@@ -6,7 +6,7 @@ banner:
   loop: true
   volume: 0.25
   start_at: 8.5
-  image: https://github.com/Github-Huangshaoqi/minecraft-code/blob/main/block.jpg
+  image: assets/images/minecraft.jpg
   opacity: 0.618
   background: "#000"
   height: "100vh"
