@@ -33,7 +33,7 @@
   {% endif %}
   {% assign return = return
     | append: " "
-    | append: 小时
+    | append: hour
     | append: " "
     | append: unit %}
 {% endif %}
@@ -44,6 +44,6 @@
 {% endif %}
 {% assign return = return
   | append: " "
-  | append: 分钟
+  | append: min
   | append: " "
   | append: unit %}
