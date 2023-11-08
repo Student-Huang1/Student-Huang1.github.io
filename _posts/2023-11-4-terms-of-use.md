@@ -3,6 +3,17 @@ layout: post
 title: 使用条款
 subtitle: 黄同学的博客使用条款
 categories: 使用条款
+banner:
+  loop: true
+  volume: 0.8
+  start_at: 8.5
+  image: assets/images/shiyong.jpg
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: white"
 tags: [使用条款]
 top: 2
 ---
