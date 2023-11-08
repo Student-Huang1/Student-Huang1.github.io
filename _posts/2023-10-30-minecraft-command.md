@@ -3,7 +3,6 @@ layout: post
 title: 我的世界指令
 subtitle: 收集了kk键盘的我的世界指令
 banner:
-  video: https://www.bilibili.com/video/BV1ei4y1Z7KU/?share_source=copy_web&vd_source=733ae755676d76dda1dc480a236f73d7
   loop: true
   volume: 0.25
   start_at: 8.5
@@ -161,3 +160,19 @@ title @a/@p/@r/@s actionbar 内容
 ### 表情符号
 #### 硬币
 > 由于markdown语法中有自己的emoji，不支持其他的emoji
+
+<script src="https://giscus.app/client.js"
+        data-repo="Github-Huangshaoqi/Github-Huangshaoqi.github.io"
+        data-repo-id="R_kgDOKmhZkg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOKmhZks4Caohl"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
