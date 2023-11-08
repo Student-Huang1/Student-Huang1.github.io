@@ -38,3 +38,19 @@ top: 2
 我们感谢您的支持和参与，希望您在本博客上有愉快的阅读体验。如果您有任何问题或建议，欢迎随时与我们联系。谢谢！
 ## 修改使用协议
 `黄同学`(Github:[Github-Huangshaoqi](https://github.com/Github-Huangshaoqi))保留随时修改本使用协议的权利。任何更改都将在本博客上发布，恕不另行通知。请定期查看本页面，以确保您了解最新的使用协议。
+
+<script src="https://giscus.app/client.js"
+        data-repo="Github-Huangshaoqi/Github-Huangshaoqi.github.io"
+        data-repo-id="R_kgDOKmhZkg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOKmhZks4Caohl"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
