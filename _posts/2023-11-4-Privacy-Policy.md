@@ -44,3 +44,19 @@ top: 3
 ## 结语
 我们感谢您的信任和访问黄同学的博客。我们将尽力保护您的个人信息，以确保您在博客上的隐私得到充分尊重。如果您有任何问题或疑虑，欢迎随时与我们联系。
 本隐私政策的目的是提供对我们隐私做法的清晰理解，以帮助您更好地理解您的信息如何被收集、使用和保护。希望这份示例隐私政策对您有所帮助，并帮助您撰写适用于您的博客的具体隐私政策。
+
+<script src="https://giscus.app/client.js"
+        data-repo="Github-Huangshaoqi/Github-Huangshaoqi.github.io"
+        data-repo-id="R_kgDOKmhZkg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOKmhZks4Caohl"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
