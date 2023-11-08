@@ -24,7 +24,7 @@
 {% assign hours = total_mins | divided_by: 60 %}
 {% assign mins = total_mins | modulo: 60 %}
 
-{% assign return = "大约" %}
+{% assign return = "about" %}
 
 {% if hours > 0 %}
   {% assign unit = "hour" %}
@@ -33,7 +33,7 @@
   {% endif %}
   {% assign return = return
     | append: " "
-    | append: hour
+    | append: hours
     | append: " "
     | append: unit %}
 {% endif %}
@@ -44,6 +44,6 @@
 {% endif %}
 {% assign return = return
   | append: " "
-  | append: min
+  | append: mins
   | append: " "
   | append: unit %}
