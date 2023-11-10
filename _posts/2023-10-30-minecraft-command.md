@@ -178,3 +178,18 @@ title @a/@p/@r/@s actionbar 内容
 </script>-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> 
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>  
+ <div id="gitalk-container">
+   <script>
+      var gitalk = new Gitalk({   
+     clientID: 'GitHub Application Client ID',   
+     clientSecret: 'GitHub Application Client Secret',   
+     repo: 'GitHub repo',   
+     owner: 'GitHub repo owner',   
+     admin: ['GitHub repo owner and collaborators, only these guys can initialize github issues'],   
+     id: location.pathname,      // 请确保你的 location 连接小于 50 个字符，否则，插件会生成失败   
+     distractionFreeMode: false // 专注模式 
+})  
+
+    gitalk.render('gitalk-container')
+   </script>
+ </div> 
