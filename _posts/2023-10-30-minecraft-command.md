@@ -18,7 +18,7 @@ tags: [minecraft]
 ---
 
 <div align="center">
-<img wight="230px" height="230px" src="https://github.com/Github-Huangshaoqi/minecraft-code/blob/main/block.jpg">
+<img wight="230px" height="230px" src="assets/images/block.jpg">
 
 ![forthebadge](https://forthebadge.com/images/badges/license-mit.svg)
 </div>
