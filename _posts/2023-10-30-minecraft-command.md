@@ -50,7 +50,7 @@ tags: [minecraft]
 ## 使用方法
 - 点击指令栏右边的复制按钮复制即可（但是有些语弹要更改一些东西，请看每个语弹下方的介绍栏）
 
-![alt](https://github.com/Github-Huangshaoqi/minecraft-code/blob/main/copy.png)
+![alt](../assets/images/copy.png)
 
 ## 许可证
 [MIT](https://github.com/Github-Huangshaoqi/minecraft-code/blob/master/LICENSE)
