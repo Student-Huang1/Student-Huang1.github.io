@@ -17,4 +17,8 @@
   text-transform: uppercase;
 }
 
+li {
+  list-style: none;
+}
+
 /* Add more styles or override existing styles as needed */
