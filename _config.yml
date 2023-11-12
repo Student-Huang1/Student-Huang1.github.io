@@ -26,7 +26,7 @@
 
 title: 黄同学的博客
 email: huanshaoqi8888@gmail.com
-author: GitHub-Huangshaoqi(SANVAS)
+author: GitHub-Huangshaoqi(SANVAS).
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -40,7 +40,7 @@ author: GitHub-Huangshaoqi(SANVAS)
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Copyright (c) 2023-{currentYear} {author}"
+copyright: "(c) 2023-{currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
   黄同学的博客
