@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 
-subtitle: 截止10月30日起最新的ChatGPT镜像站合集
+title: 电脑软件推荐
+subtitle: 好用的windows电脑软件推荐
 categories: 电脑 软件
 banner:
   loop: true
