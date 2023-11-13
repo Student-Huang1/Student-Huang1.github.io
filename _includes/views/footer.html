@@ -79,21 +79,28 @@
 <head>
   <style>
   .c-heading-4 {
-  font-size: 24px;
-  font-weight: bold;
-}
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
 
-.c-heading-4 {
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
+  .games-section,
+  .services-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.games-section,
-    .services-section {
-      height: auto;
-      max-width: 100%; /* 防止溢出 */
-    }
+  .games-section {
+    flex: 1;
+    max-width: 100%; /* 防止溢出 */
+    margin-right: 10px;
+  }
 
+  .services-section {
+    flex: 1;
+    max-width: 100%; /* 防止溢出 */
+  }
     
 li {
   list-style-type: none;
