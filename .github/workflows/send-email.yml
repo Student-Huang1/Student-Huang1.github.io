@@ -1,0 +1,50 @@
+name: Send Email
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天UTC+8的0点执行
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '14'
+
+    - name: Install dependencies
+      run: npm install nodemailer
+
+    - name: Send Email
+      run: |
+        const nodemailer = require('nodemailer');
+
+        const transporter = nodemailer.createTransport({
+          service: '163', // 使用163邮箱服务
+          auth: {
+            user: '18778418865@163.com', // 你的邮箱地址
+            pass: process.env.EMAIL_PASSWORD // 使用GitHub Secrets中的邮箱密码
+          }
+        });
+
+        const mailOptions = {
+          from: '18778418865@163.com, // 发件人邮箱
+          to: '18778418865@163.com', // 收件人邮箱
+          subject: '自动发送的邮件',
+          text: '这是一封自动发送的邮件。'
+        };
+
+        transporter.sendMail(mailOptions, (error, info) => {
+          if (error) {
+            console.error(error);
+            throw new Error('邮件发送失败');
+          }
+          console.log('邮件发送成功:', info.response);
+        });
+      env:
+        EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
