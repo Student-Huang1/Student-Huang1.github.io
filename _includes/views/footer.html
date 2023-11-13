@@ -85,7 +85,7 @@
     text-transform: uppercase;
   }
 
-  .games-section,
+  /*.games-section,
   .services-section {
     display: flex;
     flex-wrap: wrap;
@@ -93,13 +93,24 @@
 
   .games-section {
     flex: 1;
-    max-width: 100%; /* 防止溢出 */
+    max-width: 100%;  防止溢出 
     margin-right: 10px;
   }
 
   .services-section {
     flex: 1;
-    max-width: 100%; /* 防止溢出 */
+    max-width: 100%;  防止溢出 
+  }*/
+
+    .games-section,
+  .services-section {
+    float: left;
+    width: 50%; /* 将每个板块宽度设置为50% */
+    box-sizing: border-box; /* 防止宽度超出 */
+  }
+
+  .services-section {
+    float: right;
   }
     
 li {
