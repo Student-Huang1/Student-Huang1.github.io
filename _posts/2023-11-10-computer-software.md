@@ -35,7 +35,7 @@ top: 1
 
 [bandizip官网](https://www.bandisoft.com/bandizip/)
 
-### geek卸载工具
+### 3.geek卸载工具
 - 你是不是卸载不干净软件？试试这个，注册表都能给你卸载干净！！！
 
 ![img3](assets/images/geekuninstall.jpg)
