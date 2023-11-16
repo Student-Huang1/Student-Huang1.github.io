@@ -18,6 +18,9 @@ tags: [电脑 软件]
 top: 1
 ---
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9467189236880428"
+     crossorigin="anonymous"></script>
+
 ## windows电脑好用的软件
 ### 1.erevything
 - 一款好用的搜索windows电脑搜索软件
