@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 电脑软件推荐
+title: windows电脑软件推荐
 subtitle: 好用的windows电脑软件推荐
 categories: 电脑 软件
 banner:
