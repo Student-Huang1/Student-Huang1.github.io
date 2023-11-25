@@ -14,7 +14,7 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: white"
-tags: [电脑 系统]
+tags: [OpenAI ChatGPT]
 top: 1
 ---
 
