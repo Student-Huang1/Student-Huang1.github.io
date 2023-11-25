@@ -24,8 +24,8 @@ top: 1
 ### 也就是说，现在开通OpenAI账号一分钱都不需要了！！！！！！！
 ---
 ## 准备工作
-- 科学上网
-- 一个真的外国邮箱 (proton、gmail、outlook都可以)
+科学上网
+一个真的外国邮箱 (`proton`、`gmail`、`outlook`都可以)
 
 ## 开始注册
 
@@ -34,3 +34,7 @@ top: 1
 打开以后，点击`Sign up`，反应可能会有点慢
 
 ![chatsign](https://github-huangshaoqi.github.io/assets/images/chatsign.png)
+
+进入以后，输入你的电子邮箱，然后点击`continue`
+
+![chatemail](https://github-huangshaoqi.github.io/assets/images/chatemail.png)
