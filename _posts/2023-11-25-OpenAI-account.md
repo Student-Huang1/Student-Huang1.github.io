@@ -46,3 +46,7 @@ top: 1
 然后页面会显示“会话已结束”（我没拍到），这时候看看你的邮箱，OpenAI会发一封邮件到你的邮箱，点击`verify email address`
 
 ![veriftemail](https://github-huangshaoqi.github.io/assets/images/verifyemail.png)
+
+点进去后，就是设置生日和名字了，这一步不用我多说把，设置好后登录就能用。但是，也有可能点进去后是写着“会话已结束”，重新登陆一下你刚刚注册的账号就能看到设置生日和名字了
+
+设置好生日和名字就能用了，没错，你已经注册了一个OpenAI账户。
