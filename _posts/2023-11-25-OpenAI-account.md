@@ -30,6 +30,7 @@ top: 1
 
 ## 第一步
 打开你的魔法，然后打开ChatGPT的官网 ([点我跳转](https://chat.openai.com))
+
 打开以后，点击`Sign up`，反应可能会有点慢
 
 ![chatsign](https://github-huangshaoqi.github.io/asstes/images/chatsgin.png)
