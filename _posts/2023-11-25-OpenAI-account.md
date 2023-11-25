@@ -27,6 +27,8 @@ top: 1
 科学上网
 一个真的外国邮箱 (`proton`、`gmail`、`outlook`都可以)
 
+没有的点链接注册：[proton瑞士🇨🇭邮箱](https://proton.me) [gmail谷歌邮箱](https://mail.google.com) [outlook微软邮箱](https://outlook.com)
+
 ## 开始注册
 
 打开你的魔法，然后打开ChatGPT的官网 ([点我跳转](https://chat.openai.com))
