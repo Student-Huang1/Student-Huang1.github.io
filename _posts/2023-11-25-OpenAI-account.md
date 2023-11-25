@@ -33,4 +33,4 @@ top: 1
 
 打开以后，点击`Sign up`，反应可能会有点慢
 
-![chatsign](https://github-huangshaoqi.github.io/asstes/images/chatsgin.png)
+![chatsign](https://github-huangshaoqi.github.io/assets/images/chatsign.png)
