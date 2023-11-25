@@ -50,3 +50,19 @@ top: 1
 点进去后，就是设置生日和名字了，这一步不用我多说把，设置好后登录就能用。但是，也有可能点进去后是写着“会话已结束”，重新登陆一下你刚刚注册的账号就能看到设置生日和名字了
 
 设置好生日和名字就能用了，没错，你已经注册了一个OpenAI账户。
+
+<script src="https://giscus.app/client.js"
+        data-repo="Github-Huangshaoqi/Github-Huangshaoqi.github.io"
+        data-repo-id="R_kgDOKmhZkg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOKmhZks4Caohl"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
