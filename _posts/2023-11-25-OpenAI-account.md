@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ChatGPT账号注册
-subtitle: OpenAI账号注册方法
+subtitle: OpenAI账号注册流程
 categories: OpenAI ChatGPT
 banner:
   loop: true
@@ -38,3 +38,11 @@ top: 1
 进入以后，输入你的电子邮箱，然后点击`continue`
 
 ![chatemail](https://github-huangshaoqi.github.io/assets/images/chatemail.png)
+
+然后输入你的密码
+
+![chatpassword](https://github-huangshaoqi.github.io/assets/images/chatpassword.png)
+
+然后页面会显示“会话已结束”（我没拍到），这时候看看你的邮箱，OpenAI会发一封邮件到你的邮箱，点击`verify email address`
+
+![veriftemail](https://github-huangshaoqi.github.io/assets/images/verifyemail.png)
