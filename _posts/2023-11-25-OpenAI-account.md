@@ -26,9 +26,9 @@ top: 1
 ---
 ## 准备工作
 科学上网
-一个真的外国邮箱 (`proton`、`gmail`、`outlook`都可以)
+一个真的外国邮箱 (`proton`、`gmail`、`outlook`、`yahoo`都可以)
 
-没有的点链接注册：[proton瑞士🇨🇭邮箱](https://proton.me) [gmail谷歌邮箱](https://mail.google.com) [outlook微软邮箱](https://outlook.live.com)
+没有的点链接注册：[proton瑞士邮箱](https://proton.me) [gmail谷歌邮箱](https://mail.google.com) [outlook微软邮箱](https://outlook.live.com) [yahoo雅虎邮箱](https://mail.yahoo.com/)
 
 ## 开始注册
 
