@@ -16,6 +16,12 @@ layout: default
   }
 </style>
 
+<script>
+   const path = window.location.pathname;
+   const newPath = path.endsWith('.html') ? path.slice(0, -5) : path;
+   window.location.replace(newPath);
+</script>
+
 <div class="container">
   <h1>404</h1>
 
