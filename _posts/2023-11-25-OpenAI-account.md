@@ -25,7 +25,8 @@ top: 1
 > 注意：申请api-key还是要验证号码的哦
 ---
 ## 准备工作
-科学上网
+科学上网  (没有科学上网？*[点我](# 没有科学上网？))
+
 一个真的外国邮箱 (`proton`、`gmail`、`outlook`、`yahoo`都可以)
 
 没有的点链接注册：[proton瑞士邮箱](https://proton.me) [gmail谷歌邮箱](https://mail.google.com) [outlook微软邮箱](https://outlook.live.com) [yahoo雅虎邮箱](https://mail.yahoo.com/)
@@ -54,6 +55,9 @@ top: 1
 
 设置好生日和名字就能用了，没错，你已经注册了一个OpenAI账户。
 
+## 没有科学上网？
+
+如果你没有科学上网，也没有海外邮箱，去看看知了的博客[点我](https://zhile.io/2023/12/09/pandoranext-introduction.html#more-516)
 <script src="https://giscus.app/client.js"
         data-repo="Github-Huangshaoqi/Github-Huangshaoqi.github.io"
         data-repo-id="R_kgDOKmhZkg"
