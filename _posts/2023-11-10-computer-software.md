@@ -19,13 +19,13 @@ top: 1
 ---
 
 ## windows电脑好用的软件
-### 1.erevything
+### 1.everything
 - 一款好用的搜索windows电脑搜索软件
 - 厌倦了windows的原版搜索？来试试这个，0.1秒出结果
 
 ![img](https://dev-huang1.github.io/assets/images/erevythink.gif)
 
-[erevythink官网](https://www.voidtools.com/zh-cn/downloads/)
+[everything官网](https://www.voidtools.com/zh-cn/downloads/)
 
 ### 2.bandizip
 - 一款支持全压缩包后缀的解压软件
