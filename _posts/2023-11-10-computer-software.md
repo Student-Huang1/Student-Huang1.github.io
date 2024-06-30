@@ -1,6 +1,3 @@
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9467189236880428"
-     crossorigin="anonymous"></script>
-
 ---
 layout: post
 title: windows电脑软件推荐
