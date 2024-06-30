@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/jekyll-theme-yat/feed.xml" rel="self" type="application/atom+xml" /><link href="/jekyll-theme-yat/" rel="alternate" type="text/html" /><updated>2024-06-30T03:31:07+00:00</updated><id>/jekyll-theme-yat/feed.xml</id><title type="html">黄同学的博客</title><subtitle>黄同学的博客</subtitle><author><name>Dev-Huang</name></author><entry><title type="html">Tiny 系列精简版windows系统</title><link href="/jekyll-theme-yat/%E7%94%B5%E8%84%91/%E7%B3%BB%E7%BB%9F/2023/11/24/tiny10-tiny11.html" rel="alternate" type="text/html" title="Tiny 系列精简版windows系统" /><published>2023-11-24T00:00:00+00:00</published><updated>2023-11-24T00:00:00+00:00</updated><id>/jekyll-theme-yat/%E7%94%B5%E8%84%91/%E7%B3%BB%E7%BB%9F/2023/11/24/tiny10-tiny11</id><content type="html" xml:base="/jekyll-theme-yat/%E7%94%B5%E8%84%91/%E7%B3%BB%E7%BB%9F/2023/11/24/tiny10-tiny11.html"><![CDATA[<h2 id="tiny10-和-tiny11-精简版windows系统">Tiny10 和 Tiny11 精简版windows系统</h2>
+
+<hr />
+
+<p>就在最近几个月前，NTDev开发者发布了Windows 10极限精简版(Tiny 10)，但就在最近几周，NTDev又开发出了Windows 11的极限精简版(Tiny 11)</p>
+
+<p>这两个Windows系统被精简了许多臃肿不堪的系统功能和软件，只保留了微软商城、计算器等，从而大大提升了系统的运行速度，而且安装以后，也只占用不到10GB的磁盘空间</p>
+
+<ul>
+  <li>注意: 本系统仅供学习研究使用，不得用于商业用途!!!</li>
+</ul>
+
+<h2 id="tiny-10">Tiny 10</h2>
+
+<p><img src="https://github-huangshaoqi.github.io/assets/images/Tiny10.jpg" alt="tiny10" /></p>
+
+<h3 id="优点">优点：</h3>
+
+<ul>
+  <li>安装之后，系统所占用的存储空间大概只有<code class="language-plaintext highlighter-rouge">7.5GB</code>左右</li>
+  <li>是基于<code class="language-plaintext highlighter-rouge">Windows 10 LTSC 21H2</code> 精简而来的，并且可以允许用户下载系统语言包、安装系统功能、下载安全更新等等</li>
+</ul>
+
+<h3 id="系统镜像下载">系统镜像下载</h3>
+
+<p>考虑到在国内下载国外服务器的文件很慢，即使用了NDM也很慢，所以有的大佬已经下载好了分享到网盘上面了</p>
+
+<p><a href="https://github-huangshaoqi.github.io/other/tiny10">Tiny 10 23H1 精简版 Win10 系统 ISO 镜像 (64位)</a></p>
+
+<h2 id="tiny-11">Tiny 11</h2>
+
+<p><img src="https://github-huangshaoqi.github.io/assets/images/Tiny11.jpg" alt="tiny11" /></p>
+
+<h3 id="优点-1">优点：</h3>
+
+<ul>
+  <li>内存方面从原来的<code class="language-plaintext highlighter-rouge">4GB</code>限制下降到了<code class="language-plaintext highlighter-rouge">2GB</code>就能安装</li>
+  <li>解除了原来的win11的限制，如：<code class="language-plaintext highlighter-rouge">TPM 2.0</code>和<code class="language-plaintext highlighter-rouge">必须联网</code>等</li>
+</ul>
+
+<h3 id="系统镜像下载-1">系统镜像下载</h3>
+
+<p><a href="https://github-huangshaoqi.github.io/other/tiny11">Tiny 11 精简版系统 22H2 ISO 镜像 (64位)</a></p>
+
+<script src="https://giscus.app/client.js" data-repo="Dev-Huang1/Dev-Huang1.github.io" data-repo-id="R_kgDOKmhZkg" data-category="Announcements" data-category-id="DIC_kwDOKmhZks4Caohl" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="zh-CN" crossorigin="anonymous" async="">
+</script>]]></content><author><name>Dev-Huang</name></author><category term="电脑" /><category term="系统" /><category term="电脑 系统" /><summary type="html"><![CDATA[Tiny10 和 Tiny11 精简版windows系统 就在最近几个月前，NTDev开发者发布了Windows 10极限精简版(Tiny 10)，但就在最近几周，NTDev又开发出了Windows 11的极限精简版(Tiny 11) 这两个Windows系统被精简了许多臃肿不堪的系统功能和软件，只保留了微软商城、计算器等，从而大大提升了系统的运行速度，而且安装以后，也只占用不到10GB的磁盘空间 注意: 本系统仅供学习研究使用，不得用于商业用途!!! Tiny 10 优点： 安装之后，系统所占用的存储空间大概只有7.5GB左右 是基于Windows 10 LTSC 21H2 精简而来的，并且可以允许用户下载系统语言包、安装系统功能、下载安全更新等等 系统镜像下载 考虑到在国内下载国外服务器的文件很慢，即使用了NDM也很慢，所以有的大佬已经下载好了分享到网盘上面了 Tiny 10 23H1 精简版 Win10 系统 ISO 镜像 (64位) Tiny 11 优点： 内存方面从原来的4GB限制下降到了2GB就能安装 解除了原来的win11的限制，如：TPM 2.0和必须联网等 系统镜像下载 Tiny 11 精简版系统 22H2 ISO 镜像 (64位)]]></summary></entry><entry><title type="html">windows电脑软件推荐</title><link href="/jekyll-theme-yat/%E7%94%B5%E8%84%91/%E8%BD%AF%E4%BB%B6/2023/11/10/computer-software.html" rel="alternate" type="text/html" title="windows电脑软件推荐" /><published>2023-11-10T00:00:00+00:00</published><updated>2023-11-10T00:00:00+00:00</updated><id>/jekyll-theme-yat/%E7%94%B5%E8%84%91/%E8%BD%AF%E4%BB%B6/2023/11/10/computer-software</id><content type="html" xml:base="/jekyll-theme-yat/%E7%94%B5%E8%84%91/%E8%BD%AF%E4%BB%B6/2023/11/10/computer-software.html"><![CDATA[<h2 id="windows电脑好用的软件">windows电脑好用的软件</h2>
+<h3 id="1everything">1.everything</h3>
+<ul>
+  <li>一款好用的搜索windows电脑搜索软件</li>
+  <li>厌倦了windows的原版搜索？来试试这个，0.1秒出结果</li>
+</ul>
+
+<p><img src="https://dev-huang1.github.io/assets/images/erevythink.gif" alt="img" /></p>
+
+<p><a href="https://www.voidtools.com/zh-cn/downloads/">everything官网</a></p>
+
+<h3 id="2bandizip">2.bandizip</h3>
+<ul>
+  <li>一款支持全压缩包后缀的解压软件</li>
+  <li>免费，不过在最新版的bandizip，官方加入了一些广告</li>
+</ul>
+
+<p><img src="https://dev-huang1.github.io/assets/images/bandizip.jpg" alt="img2" /></p>
+
+<p><a href="https://www.bandisoft.com/bandizip/">bandizip官网</a></p>
+
+<h3 id="3geek卸载工具">3.geek卸载工具</h3>
+<ul>
+  <li>你是不是卸载不干净软件？试试这个，注册表都能给你卸载干净！！！</li>
+</ul>
+
+<p><img src="https://dev-huang1.github.io/assets/images/geekuninstall.jpg" alt="img3" />
+<img src="https://dev-huang1.github.io/assets/images/geekuninstall2.jpg" alt="img4" /></p>
+
+<p><a href="https://geekuninstaller.com/">geek官网</a></p>
+
+<h3 id="4ndm下载器">4.NDM下载器</h3>
+<ul>
+  <li>浏览器自带的下载器非常垃圾，即使开了多核还是很慢，试试NDM，最高支持32线程下载，<strong>而且免费</strong></li>
+</ul>
+
+<p><img src="https://dev-huang1.github.io/assets/images/ndm.jpg" alt="ndm" /></p>
+
+<h4 id="优点">优点：</h4>
+<blockquote>
+  <ul>
+    <li>支持资源嗅探</li>
+    <li>有浏览器插件，可以将浏览器下载自动跳转至多线程下载</li>
+    <li>凭免费这个优点就可以堪比IDM</li>
+  </ul>
+</blockquote>
+
+<p><a href="https://www.neatdownloadmanager.com/index.php/en/">NDM官网</a></p>
+
+<script src="https://giscus.app/client.js" data-repo="Dev-Huang1/Dev-Huang1.github.io" data-repo-id="R_kgDOKmhZkg" data-category="Announcements" data-category-id="DIC_kwDOKmhZks4Caohl" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="zh-CN" crossorigin="anonymous" async="">
+</script>]]></content><author><name>Dev-Huang</name></author><category term="电脑" /><category term="软件" /><category term="电脑 软件" /><summary type="html"><![CDATA[windows电脑好用的软件 1.everything 一款好用的搜索windows电脑搜索软件 厌倦了windows的原版搜索？来试试这个，0.1秒出结果]]></summary></entry></feed>

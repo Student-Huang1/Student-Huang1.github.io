@@ -1,0 +1,23 @@
+/* Your combined CSS file */
+
+/* Styles from the first CSS file */
+.c-heading-4 {
+  /* Add styles from the first CSS file for c-heading-4 class here */
+  /* For example: */
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styles from the second CSS file */
+.c-heading-4 {
+  /* Add styles from the second CSS file for c-heading-4 class here */
+  /* For example: */
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+li {
+  list-style-type: none;
+}
+/* Add more styles or override existing styles as needed */
