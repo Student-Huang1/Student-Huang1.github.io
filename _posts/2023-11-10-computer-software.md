@@ -23,7 +23,7 @@ top: 1
 - 一款好用的搜索windows电脑搜索软件
 - 厌倦了windows的原版搜索？来试试这个，0.1秒出结果
 
-![img](https://Github-Huangshaoqi.github.io/assets/images/erevythink.gif)
+![img](https://dev-huang1.github.io/assets/images/erevythink.gif)
 
 [erevythink官网](https://www.voidtools.com/zh-cn/downloads/)
 
@@ -31,22 +31,22 @@ top: 1
 - 一款支持全压缩包后缀的解压软件
 - 免费，不过在最新版的bandizip，官方加入了一些广告
 
-![img2](https://Github-Huangshaoqi.github.io/assets/images/bandizip.jpg)
+![img2](https://dev-huang1.github.io/assets/images/bandizip.jpg)
 
 [bandizip官网](https://www.bandisoft.com/bandizip/)
 
 ### 3.geek卸载工具
 - 你是不是卸载不干净软件？试试这个，注册表都能给你卸载干净！！！
 
-![img3](https://Github-Huangshaoqi.github.io/assets/images/geekuninstall.jpg)
-![img4](https://Github-Huangshaoqi.github.io/assets/images/geekuninstall2.jpg)
+![img3](https://dev-huang1.github.io/assets/images/geekuninstall.jpg)
+![img4](https://dev-huang1.github.io/assets/images/geekuninstall2.jpg)
 
 [geek官网](https://geekuninstaller.com/)
 
 ### 4.NDM下载器
 - 浏览器自带的下载器非常垃圾，即使开了多核还是很慢，试试NDM，最高支持32线程下载，__而且免费__
 
-![ndm](https://github-huangshaoqi.github.io/assets/images/ndm.jpg)
+![ndm](https://dev-huang1.github.io/assets/images/ndm.jpg)
 
 #### 优点：
 > - 支持资源嗅探
@@ -55,18 +55,4 @@ top: 1
 
 [NDM官网](https://www.neatdownloadmanager.com/index.php/en/)
 
-<script src="https://giscus.app/client.js"
-        data-repo="Github-Huangshaoqi/Github-Huangshaoqi.github.io"
-        data-repo-id="R_kgDOKmhZkg"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOKmhZks4Caohl"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-</script>
+
